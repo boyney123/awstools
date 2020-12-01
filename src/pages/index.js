@@ -81,7 +81,7 @@ const AbsoluteExternalLinks = () => (
 			<div className="-my-1">
 				<a
 					href={`https://twitter.com/intent/tweet?text=${encodeURI(
-						"Check out awstools! 🔥\n\nThanks @username_ZAYDEK for heroicons.dev and @boyney123 for awstools.dev!\n\nhttps://awstools.dev"
+						"Check out awstools! 🔥\n\nThanks @username_ZAYDEK for heroicons.dev and @boyney123 for awstools.dev and awsicons.dev!\n\nhttps://awstools.dev"
 					)}`}
 					{...target_blank}
 				>
@@ -936,7 +936,7 @@ const SectionApp = ({ state, dispatch }) => {
 					{/* Icons */}
 					<Style className="rounded-0 lg:rounded-6 shadow-none lg:shadow-2">
 						<div
-							className="dark:bg-cool-gray-900 overflow-hidden mt-5 "
+							className=" overflow-hidden mt-5 "
 							style={{
 								marginTop: "calc(-1 * var(--search-bar-height))",
 								paddingTop: "var(--search-bar-height)",

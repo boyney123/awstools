@@ -1,6 +1,6 @@
-# awstools Web Viewer
+# awstools – Explore tools for your AWS Services
 
-A set of free MIT-licensed high-quality SVG icons for you to use in your web projects.
+New MIT open source project to find libraries, tools and resources for your aws services.
 
 <br>
 <div align="center">
@@ -8,17 +8,53 @@ A set of free MIT-licensed high-quality SVG icons for you to use in your web pro
 </div>
 <br>
 
-Forked from [heroicons.dev](https://heroicons.dev), [awstools.dev](https://awstools.dev) created by me ([@boyney123](https://twitter.com/boyney123)).
 
-[Share with your friends on Twitter!](https://twitter.com/intent/tweet?text=Check%20out%20awstools!%20%F0%9F%94%A5%0A%0AThanks%20@username_ZAYDEK%20for%20awstools.dev%20and%20@boyney123%20for%20awstools.dev!%0A%0Ahttps://awstools.dev)
+<div align="center">
+	<a href="awstools.dev">awstools.dev created by </a>
+	<a href="https://twitter.com/boyney123">@boyney123</a>
+</div>
+
+## Purpose
+
+To help people search for relevant and up to date tools for the AWS services they are using.
+
+The resources are filtered out if they are old and unmaintained.
 
 ## Features
 
-✨ Tag-based search<br>
-✨ Search for only new icons using ‘new’: https://awstools.dev/?query=new<br>
-✨ Click-to-copy to the clipboard as SVG or JSX<br>
+✨ Search for resouces by service<br>
+✨ Add new resources with a url in the .yml file<br>
+✨ Explore and find up to date and relevant projects<br>
 ✨ Dark mode 😎<br>
 ✨ Preferences sync to localStorage<br>
+
+
+## Adding a resource 
+
+Adding a resource is super easy just open `scripts/projects.yml` and add your resource under the relevant service.
+
+Example
+
+```
+cloudformation:
+  - https://github.com/aws/aws-cdk
+  - https://github.com/awslabs/cfn-python-lint
+  - https://github.com/awslabs/cfncluster-cookbook
+  - https://github.com/awslabs/cfncluster
+  - https://github.com/Appliscale/perun
+  - https://github.com/bazaarvoice/cloudformation-ruby-dsl
+  - https://github.com/Sceptre/sceptre
+  - https://github.com/cloudtools/troposphere
+  - https://github.com/peterkh/cumulus
+  - https://github.com/envato/stack_master
+  - https://github.com/sparkleformation/sfn
+  - https://github.com/sparkleformation/sparkle_formation
+  - https://github.com/stelligent/cfn_nag
+```
+
+This shows the resources for `cloudformation`, if you wanted to add a resource just add another link and make a pull request. 
+
+I will review and update.
 
 ## Contributing Guide
 

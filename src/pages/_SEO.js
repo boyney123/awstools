@@ -1,7 +1,7 @@
 import Head from "next/head"
 
-const TITLE = "awstools – Open Source SVG Library for AWS Services"
-const DESCRIPTION = "New MIT open source SVG icon library for AWS Services. One-click copy-paste. Built with NextJS and Tailwind CSS."
+const TITLE = "awstools – Explore tools for your AWS Services"
+const DESCRIPTION = "New MIT open source project to find libraries, tools and resources for your aws services."
 
 const SEO = () => (
 	<Head>
