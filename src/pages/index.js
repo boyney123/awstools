@@ -150,6 +150,7 @@ const AbsoluteExternalLinks = () => (
 						</p>
 					</Style>
 				</a>
+				
 			</div>
 		</nav>
 	</Media>
@@ -159,15 +160,18 @@ const Attribution = () => (
 	<h2 className="text-center font-medium text-xl text-orange-50">
 		<span className="inline-flex flex-row flex-wrap justify-center items-center align-top">
 			<span className="inline-flex flex-row flex-wrap justify-center items-center align-top">
-				<span className="inline">
+				<span className="inline text-sm md:text-base">
 					Open source project to find libraries, tools and resources for your
 					services.
 				</span>
 			</span>
 			<Space />
 		</span>
-		<div className=" block flex-row flex-wrap justify-center items-center align-top mt-10">
-			<button
+		<div className="hidden md:block flex-row flex-wrap justify-center items-center align-top mt-8">
+			<a
+				href="https://github.com/boyney123/awstools#adding-a-resource"
+				target="_blank"
+				rel="noreferrer"
 				type="button"
 				class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white shadow-lg bg-indigo-700 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 			>
@@ -186,15 +190,17 @@ const Attribution = () => (
 						d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z"
 					></path>
 				</svg>
-			</button>
-			<div className="w-full text-center text-xs mt-2">Contribute within seconds</div>
-			{/* <button
+			</a>
+			<a
+				href="https://awsicons.dev?ref=awstools.dev"
+				target="_blank"
+				rel="noreferrer"
 				type="button"
-				class="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+				class="inline-flex ml-3 items-center px-6 py-3 text-base font-medium rounded-md text-white border border-orange border-dashed focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 			>
-			
+				Checkout awsicons.dev
 				<svg
-					class="-ml-0.5 mr-2 h-4 w-4"
+					class="ml-3 -mr-1 h-5 w-5"
 					fill="none"
 					stroke="currentColor"
 					viewBox="0 0 24 24"
@@ -204,11 +210,14 @@ const Attribution = () => (
 						stroke-linecap="round"
 						stroke-linejoin="round"
 						stroke-width="2"
-						d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+						d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
 					></path>
 				</svg>
-				Add resource to list
-			</button> */}
+			
+			</a>
+			<div className="w-full text-center text-xs mt-2">
+				Contribute within seconds. Build by <a href="https://twitter.com/boyney123" target="_blank" rel="noopener">@boyney123</a>
+			</div>
 		</div>
 		{/* <div className=" block flex-row flex-wrap justify-center items-center align-top">
 			Built by
@@ -348,7 +357,7 @@ const SectionHero = () => (
 				<div className="h-16" />
 
 				<div className="flex flex-row justify-center">
-					<h2 className="text-white text-5xl">
+					<h2 className="text-white text-center mb-2 md:mb-0 text-2xl md:text-5xl">
 						Explore tools for your AWS Services
 					</h2>
 				</div>
@@ -900,7 +909,7 @@ const SectionApp = ({ state, dispatch }) => {
 					}}
 				>
 					{/* Search */}
-					<div className="mt-0 lg:-mt-4 pt-0 lg:pt-4 sticky top-0 z-10">
+					<div className="mt-0 lg:-mt-4 pt-0 lg:pt-4 sticky top-0 z-10 px-1 md:px-0">
 						<Media className="hidden lg:block">
 							<div
 								className="-mx-6 absolute inset-x-0 top-0 pointer-events-none"
@@ -934,7 +943,7 @@ const SectionApp = ({ state, dispatch }) => {
 					</style>
 
 					{/* Icons */}
-					<Style className="rounded-0 lg:rounded-6 shadow-none lg:shadow-2">
+					<Style className="rounded-0 lg:rounded-6 shadow-none lg:shadow-2 px-1 md:px-0">
 						<div
 							className=" overflow-hidden mt-5 "
 							style={{
