@@ -7,6 +7,7 @@ import * as Arch_Analytics from "../icons/Arch_Analytics/Arch_32"
 import * as Arch_Security_Identity_Compliance from "../icons/Arch_Security-Identity-Compliance/32"
 import * as Arch_Networking_Content from "../icons/Arch_Networking-Content/32"
 import * as Arch_Management_Governance from "../icons/Arch_Management-Governance/32"
+import * as Arch_Developer_Tools from "../icons/Arch_Developer- Tools/32"
 
 export const getIconForService = service => {
 	switch (service) {
@@ -30,6 +31,10 @@ export const getIconForService = service => {
 		return Arch_Management_Governance.ArchAwsCloudFormation32
 	case "api-gateway":
 		return Arch_Networking_Content.ArchAmazonApiGateway32
+	case "sdk":
+		return Arch_Developer_Tools.ArchAwsToolsAndSdk32
+	case "cli":
+		return Arch_Developer_Tools.ArchAwsCommandLineInterface32
 	case "elastic-container-services":
 		return Arch_Containers.ArchAmazonElasticContainerService32
 	default:

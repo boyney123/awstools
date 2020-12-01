@@ -81,7 +81,6 @@ kinesis:
   - https://github.com/awslabs/kinesis-log4j-appender
 elastic-container-services:
   - https://github.com/aws/amazon-ecs-agent
-  - https://github.com/awslabs/amazon-ecs-amazon-efs
   - https://github.com/aws/amazon-ecs-init
   - https://github.com/blox/blox
   - https://github.com/awslabs/ecs-blue-green-deployment
@@ -117,17 +116,14 @@ dynamodb:
   - https://github.com/awslabs/aws-dynamodb-encryption-java
   - https://github.com/awslabs/aws-dynamodb-examples
   - https://github.com/awslabs/aws-dynamodb-mars-json-demo
-  - https://github.com/aws/aws-dynamodb-session-tomcat
   - https://github.com/aws/aws-sessionstore-dynamodb-ruby
   - https://github.com/awslabs/dynamodb-cross-region-library
   - https://github.com/awslabs/dynamodb-geo
   - https://github.com/awslabs/dynamodb-import-export-tool
-  - https://github.com/awslabs/dynamodb-online-index-violation-detector
   - https://github.com/awslabs/dynamodb-streams-kinesis-adapter
   - https://github.com/awslabs/dynamodb-tictactoe-example-app
   - https://github.com/awslabs/dynamodb-titan-storage-backend
   - https://github.com/awslabs/dynamodb-transactions
-  - https://github.com/awslabs/logstash-input-dynamodb
   - https://github.com/channl/dynamodb-lambda-autoscale
   - https://github.com/lyft/confidant
   - https://github.com/sebdah/dynamic-dynamodb
@@ -135,3 +131,15 @@ api-gateway:
   - https://github.com/awslabs/api-gateway-secure-pet-store
   - https://github.com/awslabs/aws-apigateway-sdk-java
   - https://github.com/awslabs/aws-apigateway-importer
+sdk:
+  - https://github.com/aws-amplify/amplify-js
+  - https://github.com/aws/aws-sdk-js
+  - https://github.com/aws/aws-sdk-go
+  - https://github.com/aws-amplify/aws-sdk-ios
+  - https://github.com/aws-amplify/aws-sdk-android
+cli:
+  - https://github.com/aws/aws-cli
+  - https://github.com/awslabs/aws-shell
+  - https://github.com/aws/amazon-ecs-cli
+  - https://github.com/dbcli/athenacli
+  - https://github.com/99designs/aws-vault

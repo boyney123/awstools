@@ -3,7 +3,7 @@
         "project": "serverless",
         "fullName": "serverless/serverless",
         "description": "⚡ Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more! – ",
-        "stars": 38126,
+        "stars": 38143,
         "language": "JavaScript",
         "owner": {
             "name": "serverless",
@@ -26,14 +26,14 @@
             "javascript",
             "lambda"
         ],
-        "latestCommit": "2020-11-27T08:57:57Z",
+        "latestCommit": "2020-12-01T13:13:51Z",
         "service": "lambda"
     },
     {
         "project": "minio",
         "fullName": "minio/minio",
         "description": "High Performance, Kubernetes Native Object Storage",
-        "stars": 24823,
+        "stars": 24853,
         "language": "Go",
         "owner": {
             "name": "minio",
@@ -54,14 +54,14 @@
             "cloudnative",
             "s3"
         ],
-        "latestCommit": "2020-11-29T05:15:45Z",
+        "latestCommit": "2020-12-01T20:07:39Z",
         "service": "s3"
     },
     {
         "project": "rclone",
         "fullName": "rclone/rclone",
         "description": "\"rsync for cloud storage\" - Google Drive, Amazon Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Cloudfiles, Google Cloud Storage, Yandex Files",
-        "stars": 24497,
+        "stars": 24530,
         "language": "Go",
         "owner": {
             "name": "rclone",
@@ -94,14 +94,14 @@
             "webdav",
             "s3"
         ],
-        "latestCommit": "2020-11-27T10:50:36Z",
+        "latestCommit": "2020-12-01T14:25:25Z",
         "service": "s3"
     },
     {
         "project": "chromeless",
         "fullName": "prisma-archive/chromeless",
         "description": "🖥  Chrome automation made simple. Runs locally or headless on AWS Lambda.",
-        "stars": 13257,
+        "stars": 13254,
         "language": "TypeScript",
         "owner": {
             "name": "prisma-archive",
@@ -129,7 +129,7 @@
         "project": "Zappa",
         "fullName": "Miserlou/Zappa",
         "description": "Serverless Python",
-        "stars": 11264,
+        "stars": 11274,
         "language": "Python",
         "owner": {
             "name": "Miserlou",
@@ -157,10 +157,72 @@
         "service": "lambda"
     },
     {
+        "project": "aws-cli",
+        "fullName": "aws/aws-cli",
+        "description": "Universal Command Line Interface for Amazon Web Services",
+        "stars": 10397,
+        "language": "Python",
+        "owner": {
+            "name": "aws",
+            "avatar": "https://avatars3.githubusercontent.com/u/2232217?v=4"
+        },
+        "urls": {
+            "homepage": null,
+            "github": "https://github.com/aws/aws-cli"
+        },
+        "tags": [
+            "aws",
+            "cloud",
+            "aws-cli",
+            "cloud-management",
+            "cli"
+        ],
+        "latestCommit": "2020-12-01T19:08:24Z",
+        "service": "cli"
+    },
+    {
+        "project": "amplify-js",
+        "fullName": "aws-amplify/amplify-js",
+        "description": "A declarative JavaScript library for application development using cloud services.",
+        "stars": 7592,
+        "language": "TypeScript",
+        "owner": {
+            "name": "aws-amplify",
+            "avatar": "https://avatars0.githubusercontent.com/u/41077760?v=4"
+        },
+        "urls": {
+            "homepage": "https://docs.amplify.aws/lib/q/platform/js",
+            "github": "https://github.com/aws-amplify/amplify-js"
+        },
+        "tags": [
+            "react",
+            "cloud-service",
+            "metrics",
+            "javascript",
+            "react-native",
+            "aws",
+            "aws-apigateway",
+            "aws-cognito",
+            "pinpoint",
+            "aws-mobile",
+            "aws-mobilehub",
+            "aws-s3",
+            "mobile-analytics",
+            "pwa",
+            "analytics",
+            "storage",
+            "cognito",
+            "amazon-cognito",
+            "sdk"
+        ],
+        "latestCommit": "2020-10-20T01:13:59Z",
+        "service": "sdk"
+    },
+    {
         "project": "chalice",
         "fullName": "aws/chalice",
         "description": "Python Serverless Microframework for AWS",
-        "stars": 7411,
+        "stars": 7414,
         "language": "Python",
         "owner": {
             "name": "aws",
@@ -187,10 +249,80 @@
         "service": "lambda"
     },
     {
+        "project": "aws-sdk-js",
+        "fullName": "aws/aws-sdk-js",
+        "description": "AWS SDK for JavaScript in the browser and Node.js",
+        "stars": 6337,
+        "language": "JavaScript",
+        "owner": {
+            "name": "aws",
+            "avatar": "https://avatars3.githubusercontent.com/u/2232217?v=4"
+        },
+        "urls": {
+            "homepage": "https://aws.amazon.com/developer/language/javascript/",
+            "github": "https://github.com/aws/aws-sdk-js"
+        },
+        "tags": [
+            "aws-sdk",
+            "javascript",
+            "aws",
+            "sdk"
+        ],
+        "latestCommit": "2020-12-01T19:20:57Z",
+        "service": "sdk"
+    },
+    {
+        "project": "aws-sdk-go",
+        "fullName": "aws/aws-sdk-go",
+        "description": "AWS SDK for the Go programming language.",
+        "stars": 6224,
+        "language": "Go",
+        "owner": {
+            "name": "aws",
+            "avatar": "https://avatars3.githubusercontent.com/u/2232217?v=4"
+        },
+        "urls": {
+            "homepage": "http://aws.amazon.com/sdk-for-go/",
+            "github": "https://github.com/aws/aws-sdk-go"
+        },
+        "tags": [
+            "go",
+            "aws-sdk",
+            "aws",
+            "sdk"
+        ],
+        "latestCommit": "2020-12-01T19:09:48Z",
+        "service": "sdk"
+    },
+    {
+        "project": "aws-shell",
+        "fullName": "awslabs/aws-shell",
+        "description": "An integrated shell for working with the AWS CLI.",
+        "stars": 5871,
+        "language": "Python",
+        "owner": {
+            "name": "awslabs",
+            "avatar": "https://avatars0.githubusercontent.com/u/3299148?v=4"
+        },
+        "urls": {
+            "homepage": null,
+            "github": "https://github.com/awslabs/aws-shell"
+        },
+        "tags": [
+            "aws",
+            "aws-cli",
+            "cloud",
+            "cloud-management",
+            "cli"
+        ],
+        "latestCommit": "2020-10-07T01:10:23Z",
+        "service": "cli"
+    },
+    {
         "project": "aws-cdk",
         "fullName": "aws/aws-cdk",
         "description": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code",
-        "stars": 5795,
+        "stars": 5816,
         "language": "TypeScript",
         "owner": {
             "name": "aws",
@@ -208,14 +340,14 @@
             "hacktoberfest",
             "cloudformation"
         ],
-        "latestCommit": "2020-11-29T19:54:33Z",
+        "latestCommit": "2020-12-01T16:15:01Z",
         "service": "cloudformation"
     },
     {
         "project": "aws-sam-cli",
         "fullName": "aws/aws-sam-cli",
         "description": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM",
-        "stars": 5302,
+        "stars": 5304,
         "language": "Python",
         "owner": {
             "name": "aws",
@@ -243,7 +375,7 @@
         "project": "s3fs-fuse",
         "fullName": "s3fs-fuse/s3fs-fuse",
         "description": "FUSE-based file system backed by Amazon S3",
-        "stars": 4765,
+        "stars": 4770,
         "language": "C++",
         "owner": {
             "name": "s3fs-fuse",
@@ -269,7 +401,7 @@
         "project": "troposphere",
         "fullName": "cloudtools/troposphere",
         "description": "troposphere - Python library to create AWS CloudFormation descriptions",
-        "stars": 4327,
+        "stars": 4328,
         "language": "Python",
         "owner": {
             "name": "cloudtools",
@@ -290,10 +422,38 @@
         "service": "cloudformation"
     },
     {
+        "project": "aws-vault",
+        "fullName": "99designs/aws-vault",
+        "description": "A vault for securely storing and accessing AWS credentials in development environments",
+        "stars": 4267,
+        "language": "Go",
+        "owner": {
+            "name": "99designs",
+            "avatar": "https://avatars1.githubusercontent.com/u/17182?v=4"
+        },
+        "urls": {
+            "homepage": null,
+            "github": "https://github.com/99designs/aws-vault"
+        },
+        "tags": [
+            "aws",
+            "iam",
+            "temporary-credentials",
+            "keychain",
+            "credentials",
+            "cli",
+            "mfa",
+            "aws-vault",
+            "cli"
+        ],
+        "latestCommit": "2020-11-19T21:44:18Z",
+        "service": "cli"
+    },
+    {
         "project": "lambci",
         "fullName": "lambci/lambci",
         "description": "A continuous integration system built on AWS Lambda",
-        "stars": 3924,
+        "stars": 3935,
         "language": "Shell",
         "owner": {
             "name": "lambci",
@@ -306,14 +466,14 @@
         "tags": [
             "lambda"
         ],
-        "latestCommit": "2020-06-23T18:34:58Z",
+        "latestCommit": "2020-12-01T05:15:11Z",
         "service": "lambda"
     },
     {
         "project": "filestash",
         "fullName": "mickael-kerjean/filestash",
         "description": "🦄 A modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...",
-        "stars": 3746,
+        "stars": 3753,
         "language": "Go",
         "owner": {
             "name": "mickael-kerjean",
@@ -353,7 +513,7 @@
         "project": "claudia",
         "fullName": "claudiajs/claudia",
         "description": "Deploy Node.js projects to AWS Lambda and API Gateway easily",
-        "stars": 3546,
+        "stars": 3547,
         "language": "JavaScript",
         "owner": {
             "name": "claudiajs",
@@ -380,7 +540,7 @@
         "project": "s3cmd",
         "fullName": "s3tools/s3cmd",
         "description": "Official s3cmd repo -- Command line tool for managing Amazon S3 and CloudFront services",
-        "stars": 3483,
+        "stars": 3486,
         "language": "Python",
         "owner": {
             "name": "s3tools",
@@ -407,7 +567,7 @@
         "project": "goofys",
         "fullName": "kahing/goofys",
         "description": "a high-performance, POSIX-ish Amazon S3 file system written in Go",
-        "stars": 3237,
+        "stars": 3243,
         "language": "Go",
         "owner": {
             "name": "kahing",
@@ -463,7 +623,7 @@
         "project": "aws-lambda-go",
         "fullName": "aws/aws-lambda-go",
         "description": "Libraries, samples and tools to help Go developers develop AWS Lambda functions.",
-        "stars": 2476,
+        "stars": 2475,
         "language": "Go",
         "owner": {
             "name": "aws",
@@ -476,7 +636,7 @@
         "tags": [
             "lambda"
         ],
-        "latestCommit": "2020-11-26T05:33:48Z",
+        "latestCommit": "2020-12-01T00:25:20Z",
         "service": "lambda"
     },
     {
@@ -503,7 +663,7 @@
         "project": "amazon-ecs-agent",
         "fullName": "aws/amazon-ecs-agent",
         "description": "Amazon Elastic Container Service Agent",
-        "stars": 1731,
+        "stars": 1735,
         "language": "Go",
         "owner": {
             "name": "aws",
@@ -549,7 +709,7 @@
             "coreutils",
             "s3"
         ],
-        "latestCommit": "2020-11-26T13:41:14Z",
+        "latestCommit": "2020-12-01T20:26:01Z",
         "service": "s3"
     },
     {
@@ -574,10 +734,56 @@
         "service": "dynamodb"
     },
     {
+        "project": "amazon-ecs-cli",
+        "fullName": "aws/amazon-ecs-cli",
+        "description": "The Amazon ECS CLI enables users to run their applications on ECS/Fargate using the Docker Compose file format, quickly provision resources, push/pull images in ECR, and monitor running applications on ECS/Fargate.",
+        "stars": 1516,
+        "language": "Go",
+        "owner": {
+            "name": "aws",
+            "avatar": "https://avatars3.githubusercontent.com/u/2232217?v=4"
+        },
+        "urls": {
+            "homepage": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_CLI.html",
+            "github": "https://github.com/aws/amazon-ecs-cli"
+        },
+        "tags": [
+            "cli"
+        ],
+        "latestCommit": null,
+        "service": "cli"
+    },
+    {
+        "project": "aws-sdk-ios",
+        "fullName": "aws-amplify/aws-sdk-ios",
+        "description": "AWS SDK for iOS. For more information, see our web site:",
+        "stars": 1415,
+        "language": "Objective-C",
+        "owner": {
+            "name": "aws-amplify",
+            "avatar": "https://avatars0.githubusercontent.com/u/41077760?v=4"
+        },
+        "urls": {
+            "homepage": "https://aws-amplify.github.io/docs",
+            "github": "https://github.com/aws-amplify/aws-sdk-ios"
+        },
+        "tags": [
+            "objective-c",
+            "aws-sdk",
+            "swift",
+            "amazon-web-services",
+            "aws-mobile",
+            "aws-sdk-ios",
+            "sdk"
+        ],
+        "latestCommit": null,
+        "service": "sdk"
+    },
+    {
         "project": "cfn-python-lint",
         "fullName": "aws-cloudformation/cfn-python-lint",
         "description": "CloudFormation Linter",
-        "stars": 1379,
+        "stars": 1383,
         "language": "Python",
         "owner": {
             "name": "aws-cloudformation",
@@ -595,14 +801,14 @@
             "cfn-lint",
             "cloudformation"
         ],
-        "latestCommit": "2020-11-24T20:37:11Z",
+        "latestCommit": "2020-11-30T18:11:25Z",
         "service": "cloudformation"
     },
     {
         "project": "LambStatus",
         "fullName": "ks888/LambStatus",
         "description": "[Maintenance mode] Serverless Status Page System",
-        "stars": 1325,
+        "stars": 1326,
         "language": "JavaScript",
         "owner": {
             "name": "ks888",
@@ -631,7 +837,7 @@
         "project": "python-lambda",
         "fullName": "nficano/python-lambda",
         "description": " A toolkit for developing and deploying serverless Python code in AWS Lambda. ",
-        "stars": 1200,
+        "stars": 1201,
         "language": "Python",
         "owner": {
             "name": "nficano",
@@ -677,14 +883,14 @@
             "hacktoberfest",
             "cloudformation"
         ],
-        "latestCommit": "2020-02-10T21:12:31Z",
+        "latestCommit": "2020-10-14T21:29:43Z",
         "service": "cloudformation"
     },
     {
         "project": "lambda-refarch-webapp",
         "fullName": "aws-samples/lambda-refarch-webapp",
         "description": "The Web Application reference architecture is a general-purpose, event-driven, web application back-end that uses AWS Lambda, Amazon API Gateway for its business logic. It also uses Amazon DynamoDB as its database and Amazon Cognito for user management. All static content is hosted using AWS Amplify Console.",
-        "stars": 1103,
+        "stars": 1106,
         "language": "JavaScript",
         "owner": {
             "name": "aws-samples",
@@ -734,7 +940,7 @@
         "project": "s4cmd",
         "fullName": "bloomreach/s4cmd",
         "description": "Super S3 command line tool",
-        "stars": 1047,
+        "stars": 1048,
         "language": "Python",
         "owner": {
             "name": "bloomreach",
@@ -760,7 +966,7 @@
         "project": "mu",
         "fullName": "stelligent/mu",
         "description": "A full-stack DevOps on AWS framework",
-        "stars": 942,
+        "stars": 943,
         "language": "Go",
         "owner": {
             "name": "stelligent",
@@ -836,6 +1042,32 @@
         "service": "lambda"
     },
     {
+        "project": "aws-sdk-android",
+        "fullName": "aws-amplify/aws-sdk-android",
+        "description": "AWS SDK for Android. For more information, see our web site:",
+        "stars": 810,
+        "language": "Java",
+        "owner": {
+            "name": "aws-amplify",
+            "avatar": "https://avatars0.githubusercontent.com/u/41077760?v=4"
+        },
+        "urls": {
+            "homepage": "https://docs.amplify.aws",
+            "github": "https://github.com/aws-amplify/aws-sdk-android"
+        },
+        "tags": [
+            "aws-sdk",
+            "android",
+            "aws-sdk-android",
+            "amazon-web-services",
+            "java",
+            "aws-mobile",
+            "sdk"
+        ],
+        "latestCommit": null,
+        "service": "sdk"
+    },
+    {
         "project": "ecs-refarch-continuous-deployment",
         "fullName": "awslabs/ecs-refarch-continuous-deployment",
         "description": "ECS Reference Architecture for creating a flexible and scalable deployment pipeline to Amazon ECS using AWS CodePipeline",
@@ -866,7 +1098,7 @@
         "project": "cfn_nag",
         "fullName": "stelligent/cfn_nag",
         "description": "Linting tool for CloudFormation templates",
-        "stars": 756,
+        "stars": 757,
         "language": "Ruby",
         "owner": {
             "name": "stelligent",
@@ -1155,7 +1387,7 @@
         "project": "s5cmd",
         "fullName": "peak/s5cmd",
         "description": "Parallel S3 and local filesystem execution tool.",
-        "stars": 493,
+        "stars": 495,
         "language": "Go",
         "owner": {
             "name": "peak",
@@ -1182,7 +1414,7 @@
         "project": "dynamodb-janusgraph-storage-backend",
         "fullName": "awslabs/dynamodb-janusgraph-storage-backend",
         "description": "The Amazon DynamoDB Storage Backend for JanusGraph",
-        "stars": 420,
+        "stars": 419,
         "language": "Java",
         "owner": {
             "name": "awslabs",
@@ -1245,7 +1477,7 @@
         "project": "ngx_aws_auth",
         "fullName": "anomalizer/ngx_aws_auth",
         "description": "nginx module to proxy to authenticated AWS services",
-        "stars": 389,
+        "stars": 390,
         "language": "C",
         "owner": {
             "name": "anomalizer",
@@ -1354,7 +1586,7 @@
         "project": "amazon-elasticsearch-lambda-samples",
         "fullName": "aws-samples/amazon-elasticsearch-lambda-samples",
         "description": "Data ingestion for Amazon Elasticsearch Service from S3 and Amazon Kinesis, using AWS Lambda: Sample code",
-        "stars": 367,
+        "stars": 368,
         "language": "JavaScript",
         "owner": {
             "name": "aws-samples",
@@ -1471,6 +1703,26 @@
         "service": "kinesis"
     },
     {
+        "project": "aws-lambda-java-libs",
+        "fullName": "aws/aws-lambda-java-libs",
+        "description": "Official mirror for interface definitions and helper classes for Java code running on the AWS Lambda platform.",
+        "stars": 298,
+        "language": "C",
+        "owner": {
+            "name": "aws",
+            "avatar": "https://avatars3.githubusercontent.com/u/2232217?v=4"
+        },
+        "urls": {
+            "homepage": "https://aws.amazon.com/lambda/",
+            "github": "https://github.com/aws/aws-lambda-java-libs"
+        },
+        "tags": [
+            "lambda"
+        ],
+        "latestCommit": "2020-12-01T17:27:54Z",
+        "service": "lambda"
+    },
+    {
         "project": "amazon-kinesis-client-python",
         "fullName": "awslabs/amazon-kinesis-client-python",
         "description": "Amazon Kinesis Client Library for Python",
@@ -1491,24 +1743,24 @@
         "service": "kinesis"
     },
     {
-        "project": "aws-lambda-java-libs",
-        "fullName": "aws/aws-lambda-java-libs",
-        "description": "Official mirror for interface definitions and helper classes for Java code running on the AWS Lambda platform.",
-        "stars": 297,
-        "language": "Java",
+        "project": "grunt-aws-s3",
+        "fullName": "MathieuLoutre/grunt-aws-s3",
+        "description": "Grunt plugin to interact with AWS S3 using the AWS SDK",
+        "stars": 296,
+        "language": "JavaScript",
         "owner": {
-            "name": "aws",
-            "avatar": "https://avatars3.githubusercontent.com/u/2232217?v=4"
+            "name": "MathieuLoutre",
+            "avatar": "https://avatars1.githubusercontent.com/u/106054?v=4"
         },
         "urls": {
-            "homepage": "https://aws.amazon.com/lambda/",
-            "github": "https://github.com/aws/aws-lambda-java-libs"
+            "homepage": "",
+            "github": "https://github.com/MathieuLoutre/grunt-aws-s3"
         },
         "tags": [
-            "lambda"
+            "s3"
         ],
-        "latestCommit": "2020-11-06T09:54:05Z",
-        "service": "lambda"
+        "latestCommit": "2020-01-13T10:08:12Z",
+        "service": "s3"
     },
     {
         "project": "api-gateway-secure-pet-store",
@@ -1529,26 +1781,6 @@
         ],
         "latestCommit": "2016-07-14T19:12:58Z",
         "service": "api-gateway"
-    },
-    {
-        "project": "grunt-aws-s3",
-        "fullName": "MathieuLoutre/grunt-aws-s3",
-        "description": "Grunt plugin to interact with AWS S3 using the AWS SDK",
-        "stars": 296,
-        "language": "JavaScript",
-        "owner": {
-            "name": "MathieuLoutre",
-            "avatar": "https://avatars1.githubusercontent.com/u/106054?v=4"
-        },
-        "urls": {
-            "homepage": "",
-            "github": "https://github.com/MathieuLoutre/grunt-aws-s3"
-        },
-        "tags": [
-            "s3"
-        ],
-        "latestCommit": "2020-01-13T10:08:12Z",
-        "service": "s3"
     },
     {
         "project": "s3-parallel-put",
@@ -1598,27 +1830,7 @@
         "project": "lambda-ecs-worker-pattern",
         "fullName": "aws-samples/lambda-ecs-worker-pattern",
         "description": "This example code illustrates how to extend AWS Lambda functionality using Amazon SQS and the Amazon EC2 Container Service (ECS). ",
-        "stars": 273,
-        "language": "POV-Ray SDL",
-        "owner": {
-            "name": "aws-samples",
-            "avatar": "https://avatars1.githubusercontent.com/u/8931462?v=4"
-        },
-        "urls": {
-            "homepage": null,
-            "github": "https://github.com/aws-samples/lambda-ecs-worker-pattern"
-        },
-        "tags": [
-            "lambda"
-        ],
-        "latestCommit": "2017-08-08T21:20:52Z",
-        "service": "lambda"
-    },
-    {
-        "project": "lambda-ecs-worker-pattern",
-        "fullName": "aws-samples/lambda-ecs-worker-pattern",
-        "description": "This example code illustrates how to extend AWS Lambda functionality using Amazon SQS and the Amazon EC2 Container Service (ECS). ",
-        "stars": 273,
+        "stars": 274,
         "language": "POV-Ray SDL",
         "owner": {
             "name": "aws-samples",
@@ -1633,6 +1845,26 @@
         ],
         "latestCommit": "2017-08-08T21:20:52Z",
         "service": "elastic-container-services"
+    },
+    {
+        "project": "lambda-ecs-worker-pattern",
+        "fullName": "aws-samples/lambda-ecs-worker-pattern",
+        "description": "This example code illustrates how to extend AWS Lambda functionality using Amazon SQS and the Amazon EC2 Container Service (ECS). ",
+        "stars": 274,
+        "language": "POV-Ray SDL",
+        "owner": {
+            "name": "aws-samples",
+            "avatar": "https://avatars1.githubusercontent.com/u/8931462?v=4"
+        },
+        "urls": {
+            "homepage": null,
+            "github": "https://github.com/aws-samples/lambda-ecs-worker-pattern"
+        },
+        "tags": [
+            "lambda"
+        ],
+        "latestCommit": "2017-08-08T21:20:52Z",
+        "service": "lambda"
     },
     {
         "project": "dynamodb-cross-region-library",
@@ -1805,7 +2037,7 @@
         "project": "lambda-refarch-iotbackend",
         "fullName": "aws-samples/lambda-refarch-iotbackend",
         "description": "Serverless Reference Architecture for creating an IoT Backend ",
-        "stars": 228,
+        "stars": 229,
         "language": "Python",
         "owner": {
             "name": "aws-samples",
@@ -1902,26 +2134,6 @@
         "service": "dynamodb"
     },
     {
-        "project": "cumulus",
-        "fullName": "peterkh/cumulus",
-        "description": "Helps manage AWS CloudFormation stacks",
-        "stars": 207,
-        "language": "Python",
-        "owner": {
-            "name": "peterkh",
-            "avatar": "https://avatars3.githubusercontent.com/u/1335885?v=4"
-        },
-        "urls": {
-            "homepage": "",
-            "github": "https://github.com/peterkh/cumulus"
-        },
-        "tags": [
-            "cloudformation"
-        ],
-        "latestCommit": "2020-06-08T11:52:31Z",
-        "service": "cloudformation"
-    },
-    {
         "project": "cloudformation-ruby-dsl",
         "fullName": "bazaarvoice/cloudformation-ruby-dsl",
         "description": "Ruby DSL for creating Cloudformation templates",
@@ -1939,6 +2151,26 @@
             "cloudformation"
         ],
         "latestCommit": "2019-09-20T18:07:15Z",
+        "service": "cloudformation"
+    },
+    {
+        "project": "cumulus",
+        "fullName": "peterkh/cumulus",
+        "description": "Helps manage AWS CloudFormation stacks",
+        "stars": 207,
+        "language": "Python",
+        "owner": {
+            "name": "peterkh",
+            "avatar": "https://avatars3.githubusercontent.com/u/1335885?v=4"
+        },
+        "urls": {
+            "homepage": "",
+            "github": "https://github.com/peterkh/cumulus"
+        },
+        "tags": [
+            "cloudformation"
+        ],
+        "latestCommit": "2020-06-08T11:52:31Z",
         "service": "cloudformation"
     },
     {
@@ -2062,6 +2294,35 @@
         "service": "kinesis"
     },
     {
+        "project": "athenacli",
+        "fullName": "dbcli/athenacli",
+        "description": "AthenaCLI is a CLI tool for AWS Athena service that can do auto-completion and syntax highlighting.",
+        "stars": 140,
+        "language": "Python",
+        "owner": {
+            "name": "dbcli",
+            "avatar": "https://avatars1.githubusercontent.com/u/11810727?v=4"
+        },
+        "urls": {
+            "homepage": "https://athenacli.readthedocs.io/",
+            "github": "https://github.com/dbcli/athenacli"
+        },
+        "tags": [
+            "aws-cli",
+            "athena-cli",
+            "aws-athena",
+            "python",
+            "bigdata",
+            "syntax-highlighting",
+            "autocompletion",
+            "cli",
+            "command-line",
+            "cli"
+        ],
+        "latestCommit": "2020-11-13T03:15:54Z",
+        "service": "cli"
+    },
+    {
         "project": "amazon-kinesis-client-ruby",
         "fullName": "awslabs/amazon-kinesis-client-ruby",
         "description": "A Ruby interface for the Amazon Kinesis Client Library. Allows developers to easily create robust application to process Amazon Kinesis streams in Ruby.",
@@ -2180,46 +2441,6 @@
         ],
         "latestCommit": "2020-06-25T17:21:52Z",
         "service": "elastic-container-services"
-    },
-    {
-        "project": "logstash-input-dynamodb",
-        "fullName": "awslabs/logstash-input-dynamodb",
-        "description": "This input plugin for Logstash scans a specified DynamoDB table and then reads changes to a DynamoDB table from the associated DynamoDB Stream.This gem is a Logstash plugin required to be installed on top of the Logstash core pipeline. This gem is not a stand-alone program.",
-        "stars": 99,
-        "language": "Ruby",
-        "owner": {
-            "name": "awslabs",
-            "avatar": "https://avatars0.githubusercontent.com/u/3299148?v=4"
-        },
-        "urls": {
-            "homepage": "",
-            "github": "https://github.com/awslabs/logstash-input-dynamodb"
-        },
-        "tags": [
-            "dynamodb"
-        ],
-        "latestCommit": "2016-03-22T00:13:36Z",
-        "service": "dynamodb"
-    },
-    {
-        "project": "aws-dynamodb-session-tomcat",
-        "fullName": "amazon-archives/aws-dynamodb-session-tomcat",
-        "description": "ARCHIVED: Amazon DynamoDB based session store for Apache Tomcat",
-        "stars": 97,
-        "language": "Java",
-        "owner": {
-            "name": "amazon-archives",
-            "avatar": "https://avatars1.githubusercontent.com/u/29926826?v=4"
-        },
-        "urls": {
-            "homepage": "",
-            "github": "https://github.com/amazon-archives/aws-dynamodb-session-tomcat"
-        },
-        "tags": [
-            "dynamodb"
-        ],
-        "latestCommit": "2018-02-06T21:45:56Z",
-        "service": "dynamodb"
     },
     {
         "project": "dynamodb-import-export-tool",
@@ -2442,26 +2663,6 @@
         "service": "cloudformation"
     },
     {
-        "project": "amazon-ecs-amazon-efs",
-        "fullName": "awslabs/amazon-ecs-amazon-efs",
-        "description": "Using Amazon EFS to Persist Data from Amazon ECS Containers",
-        "stars": 64,
-        "language": null,
-        "owner": {
-            "name": "awslabs",
-            "avatar": "https://avatars0.githubusercontent.com/u/3299148?v=4"
-        },
-        "urls": {
-            "homepage": null,
-            "github": "https://github.com/awslabs/amazon-ecs-amazon-efs"
-        },
-        "tags": [
-            "elastic-container-services"
-        ],
-        "latestCommit": "2016-10-19T21:08:59Z",
-        "service": "elastic-container-services"
-    },
-    {
         "project": "ecs-task-kite",
         "fullName": "awslabs/ecs-task-kite",
         "description": "ECS Task Kite - A simple ambassador container for inter-task communication on ECS - http://aws.amazon.com/ecs/ ",
@@ -2482,26 +2683,6 @@
         "service": "elastic-container-services"
     },
     {
-        "project": "kinesis-log4j-appender",
-        "fullName": "amazon-archives/kinesis-log4j-appender",
-        "description": "ARCHIVED: Log4J Appender for writing data into a Kinesis Stream",
-        "stars": 59,
-        "language": "Java",
-        "owner": {
-            "name": "amazon-archives",
-            "avatar": "https://avatars1.githubusercontent.com/u/29926826?v=4"
-        },
-        "urls": {
-            "homepage": "",
-            "github": "https://github.com/amazon-archives/kinesis-log4j-appender"
-        },
-        "tags": [
-            "kinesis"
-        ],
-        "latestCommit": "2018-08-06T00:39:14Z",
-        "service": "kinesis"
-    },
-    {
         "project": "aws-sessionstore-dynamodb-ruby",
         "fullName": "aws/aws-sessionstore-dynamodb-ruby",
         "description": "Handles sessions for Ruby web applications using DynamoDB as a backend.",
@@ -2520,6 +2701,26 @@
         ],
         "latestCommit": "2020-11-16T21:27:41Z",
         "service": "dynamodb"
+    },
+    {
+        "project": "kinesis-log4j-appender",
+        "fullName": "amazon-archives/kinesis-log4j-appender",
+        "description": "ARCHIVED: Log4J Appender for writing data into a Kinesis Stream",
+        "stars": 59,
+        "language": "Java",
+        "owner": {
+            "name": "amazon-archives",
+            "avatar": "https://avatars1.githubusercontent.com/u/29926826?v=4"
+        },
+        "urls": {
+            "homepage": "",
+            "github": "https://github.com/amazon-archives/kinesis-log4j-appender"
+        },
+        "tags": [
+            "kinesis"
+        ],
+        "latestCommit": "2018-08-06T00:39:14Z",
+        "service": "kinesis"
     },
     {
         "project": "aws-eb-python-dockerfiles",
@@ -2831,7 +3032,7 @@
         "project": "apex",
         "fullName": "apex/apex",
         "description": "Old apex/apex",
-        "stars": 8,
+        "stars": 9,
         "language": "Go",
         "owner": {
             "name": "apex",
@@ -2846,26 +3047,6 @@
         ],
         "latestCommit": "2019-08-27T09:56:31Z",
         "service": "lambda"
-    },
-    {
-        "project": "dynamodb-online-index-violation-detector",
-        "fullName": "amazon-archives/dynamodb-online-index-violation-detector",
-        "description": "A tool for Amazon DynamoDB to find violations on an online GSI's hash key and range key.",
-        "stars": 7,
-        "language": "Java",
-        "owner": {
-            "name": "amazon-archives",
-            "avatar": "https://avatars1.githubusercontent.com/u/29926826?v=4"
-        },
-        "urls": {
-            "homepage": null,
-            "github": "https://github.com/amazon-archives/dynamodb-online-index-violation-detector"
-        },
-        "tags": [
-            "dynamodb"
-        ],
-        "latestCommit": "2015-01-27T21:02:46Z",
-        "service": "dynamodb"
     },
     {
         "project": "eb-node-express",
