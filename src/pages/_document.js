@@ -13,14 +13,14 @@ class Document extends NextDocument {
 
 					<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 			
-					<script async src="https://www.googletagmanager.com/gtag/js?id=G-SK5R3JP8M7"></script>
+					<script async src="https://www.googletagmanager.com/gtag/js?id=G-TQ01PYH53L"></script>
 					<script
 								dangerouslySetInnerHTML={{
 									__html: `
 						window.dataLayer = window.dataLayer || [];
 						function gtag(){dataLayer.push(arguments);}
 						gtag('js', new Date());
-						gtag('config', 'G-SK5R3JP8M7');
+						gtag('config', 'G-TQ01PYH53L');
 						`
 					}}/>
 				
