@@ -131,6 +131,7 @@ api-gateway:
   - https://github.com/awslabs/api-gateway-secure-pet-store
   - https://github.com/awslabs/aws-apigateway-sdk-java
   - https://github.com/awslabs/aws-apigateway-importer
+  - https://github.com/m-radzikowski/aws-swaggerui
 sdk:
   - https://github.com/aws-amplify/amplify-js
   - https://github.com/aws/aws-sdk-js
