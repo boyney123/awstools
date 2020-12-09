@@ -34,6 +34,7 @@ s3:
   - https://github.com/schickling/git-s3
   - https://github.com/sorentwo/carrierwave-aws
   - https://github.com/mishudark/s3-parallel-put
+  - https://github.com/iterate-ch/cyberduck
 lambda:
   - https://github.com/awslabs/amazon-elasticsearch-lambda-samples
   - https://github.com/awslabs/aws-sam-local
