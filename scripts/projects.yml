@@ -1,5 +1,6 @@
 cloudformation:
   - https://github.com/aws/aws-cdk
+  - https://github.com/aws-cloudformation/aws-cfn-lint-visual-studio-code
   - https://github.com/awslabs/cfn-python-lint
   - https://github.com/awslabs/cfncluster-cookbook
   - https://github.com/awslabs/cfncluster
