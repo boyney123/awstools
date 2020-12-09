@@ -64,6 +64,8 @@ lambda:
   - https://github.com/nficano/python-lambda
   - https://github.com/serverless/serverless
   - https://github.com/trek10inc/aws-lambda-debugger
+	- https://github.com/awslabs/aws-lambda-powertools-java
+	- https://github.com/awslabs/aws-lambda-powertools-python
 kinesis:
   - https://github.com/awslabs/amazon-kinesis-aggregators
   - https://github.com/awslabs/amazon-kinesis-client-net
