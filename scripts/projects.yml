@@ -110,7 +110,7 @@ elastic-bean-stalk:
   - https://github.com/awslabs/eb-wif-sample
   - https://github.com/alienfast/elastic-beanstalk
   - https://github.com/ThoughtWorksStudios/eb_deployer
-	- https://github.com/rennokki/laravel-aws-eb
+  - https://github.com/rennokki/laravel-aws-eb
 dynamodb:
   - https://github.com/aws/aws-dotnet-session-provider
   - https://github.com/aws/aws-dotnet-trace-listener
