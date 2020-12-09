@@ -150,7 +150,6 @@ const AbsoluteExternalLinks = () => (
 						</p>
 					</Style>
 				</a>
-				
 			</div>
 		</nav>
 	</Media>
@@ -167,13 +166,13 @@ const Attribution = () => (
 			</span>
 			<Space />
 		</span>
-		<div className="hidden md:block flex-row flex-wrap justify-center items-center align-top mt-8">
+		<div className=" md:block flex-row flex-wrap justify-center items-center align-top mt-8">
 			<a
 				href="https://github.com/boyney123/awstools#adding-a-resource"
 				target="_blank"
 				rel="noreferrer"
 				type="button"
-				class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white shadow-lg bg-indigo-700 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+				class="w-3/4 text-center md:w-auto inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white shadow-lg bg-indigo-700 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 			>
 				Add resource to list
 				<svg
@@ -191,12 +190,13 @@ const Attribution = () => (
 					></path>
 				</svg>
 			</a>
+
 			<a
 				href="https://awsicons.dev?ref=awstools.dev"
 				target="_blank"
 				rel="noreferrer"
 				type="button"
-				class="inline-flex ml-3 items-center px-6 py-3 text-base font-medium rounded-md text-white border border-orange border-dashed focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+				class="hidden md:inline-flex ml-3 items-center px-6 py-3 text-base font-medium rounded-md text-white border border-orange border-dashed focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 			>
 				Checkout awsicons.dev
 				<svg
@@ -213,10 +213,40 @@ const Attribution = () => (
 						d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
 					></path>
 				</svg>
-			
 			</a>
-			<div className="w-full text-center text-xs mt-2">
-				Contribute within seconds. Build by <a href="https://twitter.com/boyney123" target="_blank" rel="noopener">@boyney123</a>
+			<div className="w-full text-center m-auto mt-4">
+				<div class="badges">
+					<a className="inline-block ml-2" href="https://github.com/boyney123/awstools" target="_blank">
+						<img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+					</a>
+					<a className="inline-block ml-2" href="https://github.com/boyney123/awstools" target="_blank">
+						<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
+					</a>
+					<a className="inline-block ml-2" href="https://github.com/boyney123/awstools" target="_blank">
+						<img src="https://img.shields.io/github/stars/boyney123/awstools.svg?style=social" />
+					</a>
+				</div>
+			</div>
+			<div className="mt-2 block md:hidden">
+				<a
+					href={`https://twitter.com/intent/tweet?text=${encodeURI(
+						"Check out awstools! 🔥\n\nThanks @username_ZAYDEK for heroicons.dev and @boyney123 for awstools.dev and awsicons.dev!\n\nhttps://awstools.dev"
+					)}`}
+					{...target_blank}
+				>
+					<p className="twemoji text-sm no-underline hover:underline text-orange-50">
+						Tweet thank you on Twitter!
+					</p>
+				</a>
+			</div>
+			<div className="w-full text-center text-xs mt-1 md:mt-4">
+				<span className="hidden md:inline-block">
+					Contribute within seconds.
+				</span>
+				Build by{" "}
+				<a href="https://twitter.com/boyney123" target="_blank" rel="noopener">
+					@boyney123
+				</a>
 			</div>
 		</div>
 		{/* <div className=" block flex-row flex-wrap justify-center items-center align-top">
@@ -354,11 +384,11 @@ const SectionHero = () => (
 		{/* NOTE: Use px-* here because of backgrounds. */}
 		<header className="px-4 lg:px-6 flex flex-row justify-center bg-theme dark:bg-dark-theme">
 			<div className="w-full max-w-screen-xl">
-				<div className="h-16" />
+				<div className="h-8 md:h-16" />
 
 				<div className="flex flex-row justify-center">
-					<h2 className="text-white text-center mb-2 md:mb-0 text-2xl md:text-5xl">
-						Explore tools for your AWS Services
+					<h2 className="text-white text-center mb-2 md:mb-0 text-xl font-bold md:text-5xl">
+						Explore resources by AWS Service
 					</h2>
 				</div>
 
@@ -367,7 +397,7 @@ const SectionHero = () => (
 					<Attribution />
 				</div>
 
-				<div className="h-16" />
+				<div className="h-8 md:h-16" />
 				<div style={{ height: "var(--search-bar-negative-margin)" }} />
 			</div>
 		</header>
@@ -595,16 +625,13 @@ const MemoSearch = React.memo(
 					<Reset className="block w-full h-full bg-transparent focus:outline-none">
 						<input
 							ref={inputRef}
-							className="px-16 text-xl placeholder-cool-gray-400 dark:placeholder-cool-gray-600 text-cool-gray-800 dark:text-cool-gray-200"
+							className="md:px-16  text-sm md:text-xl placeholder-cool-gray-400 dark:placeholder-cool-gray-600 text-cool-gray-800 dark:text-cool-gray-200"
 							style={{
 								paddingLeft: tw(8 + 6 + 4),
-								paddingRight: tw(4 + (10 + 1) + (1 + 10 + 1) + (1 + 10) + 8),
 							}}
 							type="text"
 							placeholder={
-								!inputFocused
-									? 'Search by AWS Service (Press "/" to Focus)'
-									: "Search AWS Service"
+								!inputFocused ? "Search by AWS Service" : "Search AWS Service"
 							}
 							value={query}
 							onFocus={(e) => setInputFocused(true)}
@@ -902,7 +929,7 @@ const SectionApp = ({ state, dispatch }) => {
 			>
 				{/* NOTE: Do not use w-full max-w-screen-xl because of px-*. */}
 				<main
-					className="z-10"
+					className="px-2 z-10"
 					style={{
 						width: "100%",
 						maxWidth: 1152,

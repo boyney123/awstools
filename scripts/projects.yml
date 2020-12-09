@@ -132,14 +132,4 @@ api-gateway:
   - https://github.com/awslabs/aws-apigateway-sdk-java
   - https://github.com/awslabs/aws-apigateway-importer
 sdk:
-  - https://github.com/aws-amplify/amplify-js
-  - https://github.com/aws/aws-sdk-js
-  - https://github.com/aws/aws-sdk-go
   - https://github.com/aws-amplify/aws-sdk-ios
-  - https://github.com/aws-amplify/aws-sdk-android
-cli:
-  - https://github.com/aws/aws-cli
-  - https://github.com/awslabs/aws-shell
-  - https://github.com/aws/amazon-ecs-cli
-  - https://github.com/dbcli/athenacli
-  - https://github.com/99designs/aws-vault

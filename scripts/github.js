@@ -54,11 +54,11 @@ const getTopicsForRepo = async (url) => {
 	}
 };
 
-const getLatestCommit = async (url) => {
+const getLatestCommit = async (url, default_branch) => {
 	try {
 		const { data } = await axios({
 			method: "GET",
-			url: urljoin(url, "/branches/master"),
+			url: urljoin(url, `/branches/${default_branch}`),
 			headers: {
 				"user-agent": "github-actions-things",
 				Accept: "application/vnd.github.mercy-preview+json",
@@ -90,8 +90,12 @@ const getDataForGithubProject = async (githubUrl, service) => {
 		json: true,
 	});
 
+
+	const { default_branch } = data;
+
+
 	const topics = await getTopicsForRepo(url);
-	const latestCommit = await getLatestCommit(url);
+	const latestCommit = await getLatestCommit(url, default_branch);
 
 	const mappedData = mapGitHubDataToProjectAPI({
 		...data,
