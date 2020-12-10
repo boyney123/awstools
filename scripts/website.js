@@ -24,6 +24,8 @@ const mapToProjectData = data => {
 		urls: {
 			homepage: project,
 		},
+		// hack for now to place them...
+		stars: Math.floor(Math.random() * 10000) + 3000,
 		type,
 		tags: [service, cardTitle, ...additionalTags],
 		service,
