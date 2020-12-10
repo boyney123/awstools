@@ -4,7 +4,7 @@
 		"tw-dev": "tailwind build -o src/stylesheets/tailwindcss/out.css",
 		"tw-build": "NODE_ENV=production yarn tw-dev",
 		"dev": "next dev",
-		"build": "next build",
+		"build": "node scripts/mass-import.js && next build",
 		"out": "rm -rf .next && yarn tw-build && yarn build && yarn next export && osascript -e 'display notification \"Production build ready\" with title \"yarn compile\"' && yarn tw-dev && osascript -e 'display notification \"Development build ready\" with title \"yarn tw-dev\"'",
 		"start": "next start"
 	},

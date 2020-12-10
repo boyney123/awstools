@@ -3,7 +3,7 @@
         "project": "serverless",
         "fullName": "serverless/serverless",
         "description": "⚡ Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more! – ",
-        "stars": 38220,
+        "stars": 38222,
         "language": "JavaScript",
         "owner": {
             "name": "serverless",
@@ -33,7 +33,7 @@
         "project": "minio",
         "fullName": "minio/minio",
         "description": "High Performance, Kubernetes Native Object Storage",
-        "stars": 24963,
+        "stars": 24968,
         "language": "Go",
         "owner": {
             "name": "minio",
@@ -54,14 +54,14 @@
             "cloudnative",
             "s3"
         ],
-        "latestCommit": "2020-12-09T22:30:35Z",
+        "latestCommit": "2020-12-10T04:30:37Z",
         "service": "s3"
     },
     {
         "project": "rclone",
         "fullName": "rclone/rclone",
         "description": "\"rsync for cloud storage\" - Google Drive, Amazon Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Cloudfiles, Google Cloud Storage, Yandex Files",
-        "stars": 24910,
+        "stars": 24914,
         "language": "Go",
         "owner": {
             "name": "rclone",
@@ -129,7 +129,7 @@
         "project": "Zappa",
         "fullName": "Miserlou/Zappa",
         "description": "Serverless Python",
-        "stars": 11299,
+        "stars": 11300,
         "language": "Python",
         "owner": {
             "name": "Miserlou",
@@ -160,7 +160,7 @@
         "project": "chalice",
         "fullName": "aws/chalice",
         "description": "Python Serverless Microframework for AWS",
-        "stars": 7437,
+        "stars": 7441,
         "language": "Python",
         "owner": {
             "name": "aws",
@@ -190,7 +190,7 @@
         "project": "aws-cdk",
         "fullName": "aws/aws-cdk",
         "description": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code",
-        "stars": 5870,
+        "stars": 5871,
         "language": "TypeScript",
         "owner": {
             "name": "aws",
@@ -208,14 +208,14 @@
             "hacktoberfest",
             "cloudformation"
         ],
-        "latestCommit": "2020-12-09T20:21:42Z",
+        "latestCommit": "2020-12-10T01:34:22Z",
         "service": "cloudformation"
     },
     {
         "project": "aws-sam-cli",
         "fullName": "aws/aws-sam-cli",
         "description": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM",
-        "stars": 5321,
+        "stars": 5322,
         "language": "Python",
         "owner": {
             "name": "aws",
@@ -243,7 +243,7 @@
         "project": "s3fs-fuse",
         "fullName": "s3fs-fuse/s3fs-fuse",
         "description": "FUSE-based file system backed by Amazon S3",
-        "stars": 4794,
+        "stars": 4793,
         "language": "C++",
         "owner": {
             "name": "s3fs-fuse",
@@ -313,7 +313,7 @@
         "project": "filestash",
         "fullName": "mickael-kerjean/filestash",
         "description": "🦄 A modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...",
-        "stars": 3786,
+        "stars": 3788,
         "language": "Go",
         "owner": {
             "name": "mickael-kerjean",
@@ -407,7 +407,7 @@
         "project": "goofys",
         "fullName": "kahing/goofys",
         "description": "a high-performance, POSIX-ish Amazon S3 file system written in Go",
-        "stars": 3252,
+        "stars": 3254,
         "language": "Go",
         "owner": {
             "name": "kahing",
@@ -503,7 +503,7 @@
         "project": "amazon-ecs-agent",
         "fullName": "aws/amazon-ecs-agent",
         "description": "Amazon Elastic Container Service Agent",
-        "stars": 1742,
+        "stars": 1741,
         "language": "Go",
         "owner": {
             "name": "aws",
@@ -549,7 +549,7 @@
             "coreutils",
             "s3"
         ],
-        "latestCommit": "2020-12-08T00:16:42Z",
+        "latestCommit": "2020-12-09T23:26:29Z",
         "service": "s3"
     },
     {
@@ -705,6 +705,35 @@
         ],
         "latestCommit": "2020-10-14T21:29:43Z",
         "service": "cloudformation"
+    },
+    {
+        "project": "copilot-cli",
+        "fullName": "aws/copilot-cli",
+        "description": "The AWS Copilot CLI is a tool for developers to build, release and operate production ready containerized applications on Amazon ECS and AWS Fargate. ",
+        "stars": 1121,
+        "language": "Go",
+        "owner": {
+            "name": "aws",
+            "avatar": "https://avatars3.githubusercontent.com/u/2232217?v=4"
+        },
+        "urls": {
+            "homepage": "https://aws.github.io/copilot-cli/",
+            "github": "https://github.com/aws/copilot-cli"
+        },
+        "tags": [
+            "modern-applications",
+            "cd-pipelines",
+            "containers",
+            "infrastructure-as-code",
+            "aws-ecs",
+            "devops",
+            "developer-tools",
+            "aws-fargate",
+            "aws-fargate-application",
+            "elastic-container-services"
+        ],
+        "latestCommit": "2020-12-08T22:15:55Z",
+        "service": "elastic-container-services"
     },
     {
         "project": "lambda-refarch-webapp",
@@ -1290,6 +1319,26 @@
         "service": "s3"
     },
     {
+        "project": "lambda-chat",
+        "fullName": "cloudnative/lambda-chat",
+        "description": "A chat application without servers - using only AWS Lambda, S3, DynamoDB and SNS",
+        "stars": 383,
+        "language": "HTML",
+        "owner": {
+            "name": "cloudnative",
+            "avatar": "https://avatars3.githubusercontent.com/u/7363530?v=4"
+        },
+        "urls": {
+            "homepage": null,
+            "github": "https://github.com/cloudnative/lambda-chat"
+        },
+        "tags": [
+            "lambda"
+        ],
+        "latestCommit": "2016-03-29T17:27:36Z",
+        "service": "lambda"
+    },
+    {
         "project": "ecs-blue-green-deployment",
         "fullName": "aws-samples/ecs-blue-green-deployment",
         "description": "Reference architecture for doing blue green deployments on ECS.",
@@ -1315,26 +1364,6 @@
         ],
         "latestCommit": "2017-12-08T19:07:06Z",
         "service": "elastic-container-services"
-    },
-    {
-        "project": "lambda-chat",
-        "fullName": "cloudnative/lambda-chat",
-        "description": "A chat application without servers - using only AWS Lambda, S3, DynamoDB and SNS",
-        "stars": 383,
-        "language": "HTML",
-        "owner": {
-            "name": "cloudnative",
-            "avatar": "https://avatars3.githubusercontent.com/u/7363530?v=4"
-        },
-        "urls": {
-            "homepage": null,
-            "github": "https://github.com/cloudnative/lambda-chat"
-        },
-        "tags": [
-            "lambda"
-        ],
-        "latestCommit": "2016-03-29T17:27:36Z",
-        "service": "lambda"
     },
     {
         "project": "carrierwave-aws",
@@ -1437,6 +1466,26 @@
         "service": "dynamodb"
     },
     {
+        "project": "amazon-kinesis-scaling-utils",
+        "fullName": "awslabs/amazon-kinesis-scaling-utils",
+        "description": "The Kinesis Scaling Utility is designed to give you the ability to scale Amazon Kinesis Streams in the same way that you scale EC2 Auto Scaling groups – up or down by a count or as a percentage of the total fleet. You can also simply scale to an exact number of Shards. There is no requirement for you to manage the allocation of the keyspace to Shards when using this API, as it is done automatically.",
+        "stars": 311,
+        "language": "Java",
+        "owner": {
+            "name": "awslabs",
+            "avatar": "https://avatars0.githubusercontent.com/u/3299148?v=4"
+        },
+        "urls": {
+            "homepage": null,
+            "github": "https://github.com/awslabs/amazon-kinesis-scaling-utils"
+        },
+        "tags": [
+            "kinesis"
+        ],
+        "latestCommit": "2020-11-05T09:35:40Z",
+        "service": "kinesis"
+    },
+    {
         "project": "dynamodb-lambda-autoscale",
         "fullName": "channl/dynamodb-lambda-autoscale",
         "description": "Autoscale DynamoDB provisioned capacity using Lambda",
@@ -1457,30 +1506,10 @@
         "service": "dynamodb"
     },
     {
-        "project": "amazon-kinesis-scaling-utils",
-        "fullName": "awslabs/amazon-kinesis-scaling-utils",
-        "description": "The Kinesis Scaling Utility is designed to give you the ability to scale Amazon Kinesis Streams in the same way that you scale EC2 Auto Scaling groups – up or down by a count or as a percentage of the total fleet. You can also simply scale to an exact number of Shards. There is no requirement for you to manage the allocation of the keyspace to Shards when using this API, as it is done automatically.",
-        "stars": 310,
-        "language": "Java",
-        "owner": {
-            "name": "awslabs",
-            "avatar": "https://avatars0.githubusercontent.com/u/3299148?v=4"
-        },
-        "urls": {
-            "homepage": null,
-            "github": "https://github.com/awslabs/amazon-kinesis-scaling-utils"
-        },
-        "tags": [
-            "kinesis"
-        ],
-        "latestCommit": "2020-11-05T09:35:40Z",
-        "service": "kinesis"
-    },
-    {
         "project": "amazon-kinesis-producer",
         "fullName": "awslabs/amazon-kinesis-producer",
         "description": "Amazon Kinesis Producer Library",
-        "stars": 306,
+        "stars": 307,
         "language": "C++",
         "owner": {
             "name": "awslabs",

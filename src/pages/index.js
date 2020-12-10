@@ -919,8 +919,6 @@ const MemoIcon = React.memo(({ variant, copyAsJSX, icon, dispatch }) => {
 const SectionApp = ({ state, dispatch }) => {
 	const media = useLayoutBreakpoints(screens);
 
-	console.log("tate.search.__results", state.search.__results);
-
 	return (
 		<section>
 			<div

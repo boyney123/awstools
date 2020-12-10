@@ -68,8 +68,6 @@ const actions = state => ({
 			return
 		}
 
-		console.log('safe',safe)
-
 		state.search.__results = dataset.filter(each => {
 			return each.tags.some(each => {
 				return each.startsWith(safe)
