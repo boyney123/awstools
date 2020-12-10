@@ -1,4 +1,5 @@
-# awstools – Explore tools for your AWS Services
+# awstools.dev 
+## Explore Resources for your AWS Services
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -34,25 +35,36 @@ The resources are filtered out if they are old and unmaintained.
 
 ## Adding a resource 
 
+This project currently supports two types of resources
+
+- code
+- website
+
+If you want to add a code resource just use the github url of the repo you would like to add.
+
+If you want to add a website just add the url of the website to the file.
+
 Adding a resource is super easy just open `scripts/projects.yml` and add your resource under the relevant service.
 
 Example
 
 ```
 cloudformation:
-  - https://github.com/aws/aws-cdk
-  - https://github.com/awslabs/cfn-python-lint
-  - https://github.com/awslabs/cfncluster-cookbook
-  - https://github.com/awslabs/cfncluster
-  - https://github.com/Appliscale/perun
-  - https://github.com/bazaarvoice/cloudformation-ruby-dsl
-  - https://github.com/Sceptre/sceptre
-  - https://github.com/cloudtools/troposphere
-  - https://github.com/peterkh/cumulus
-  - https://github.com/envato/stack_master
-  - https://github.com/sparkleformation/sfn
-  - https://github.com/sparkleformation/sparkle_formation
-  - https://github.com/stelligent/cfn_nag
+  urls:
+  	- https://github.com/aws/aws-cdk
+		- https://github.com/awslabs/cfn-python-lint
+		- https://github.com/awslabs/cfncluster-cookbook
+		- https://github.com/awslabs/cfncluster
+		- https://github.com/Appliscale/perun
+		- https://github.com/bazaarvoice/cloudformation-ruby-dsl
+		- https://github.com/Sceptre/sceptre
+		- https://github.com/cloudtools/troposphere
+		- https://github.com/peterkh/cumulus
+		- https://github.com/envato/stack_master
+		- https://github.com/sparkleformation/sfn
+		- https://github.com/sparkleformation/sparkle_formation
+		- https://github.com/stelligent/cfn_nag
+		- https://my-website.com
 ```
 
 This shows the resources for `cloudformation`, if you wanted to add a resource just add another link and make a pull request. 
