@@ -6,7 +6,6 @@ import SEO from "./_SEO";
 import Style from "lib/x/Style";
 import SVG from "components/SVG";
 import target_blank from "lib/x/target_blank";
-import DocumentTitle from "lib/x/DocumentTitle";
 import toCamelCase from "utils/toCamelCase";
 import toJSX from "utils/svgToJSX";
 import Transition from "lib/x/Transition";
@@ -22,14 +21,11 @@ import { getIconForService } from "../icons";
 
 import SVGCheck from "heroicons-0.4.x/solid/Check";
 import SVGCode from "heroicons-0.4.x/solid/Code";
-import SVGFlag from "heroicons-0.4.x/solid/Flag";
 import SVGMoon from "heroicons-0.4.x/solid/Moon";
 import SVGPaperClip from "heroicons-0.4.x/solid/PaperClip";
 
 import SVGCodeStroke from "heroicons-0.4.x/outline/Code";
 import SVGMoonStroke from "heroicons-0.4.x/outline/Moon";
-
-import toolData from "../data/aws-tools.json";
 
 const LOCALSTORAGE_KEY = "awstools.dev";
 
@@ -172,11 +168,11 @@ const Attribution = () => (
 				target="_blank"
 				rel="noreferrer"
 				type="button"
-				class="w-3/4 text-center md:w-auto inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white shadow-lg bg-indigo-700 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+				className="w-3/4 text-center md:w-auto inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white shadow-lg bg-indigo-700 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 			>
 				Add resource to list
 				<svg
-					class="ml-3 -mr-1 h-5 w-5"
+					className="ml-3 -mr-1 h-5 w-5"
 					fill="none"
 					stroke="currentColor"
 					viewBox="0 0 24 24"
@@ -196,11 +192,11 @@ const Attribution = () => (
 				target="_blank"
 				rel="noreferrer"
 				type="button"
-				class="hidden md:inline-flex ml-3 items-center px-6 py-3 text-base font-medium rounded-md text-white border border-orange border-dashed focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+				className="hidden md:inline-flex ml-3 items-center px-6 py-3 text-base font-medium rounded-md text-white border border-orange border-dashed focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 			>
 				Checkout awsicons.dev
 				<svg
-					class="ml-3 -mr-1 h-5 w-5"
+					className="ml-3 -mr-1 h-5 w-5"
 					fill="none"
 					stroke="currentColor"
 					viewBox="0 0 24 24"
@@ -215,14 +211,26 @@ const Attribution = () => (
 				</svg>
 			</a>
 			<div className="w-full text-center m-auto mt-4">
-				<div class="badges">
-					<a className="inline-block ml-2" href="https://github.com/boyney123/awstools" target="_blank">
+				<div className="badges">
+					<a
+						className="inline-block ml-2"
+						href="https://github.com/boyney123/awstools"
+						target="_blank"
+					>
 						<img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
 					</a>
-					<a className="inline-block ml-2" href="https://github.com/boyney123/awstools" target="_blank">
+					<a
+						className="inline-block ml-2"
+						href="https://github.com/boyney123/awstools"
+						target="_blank"
+					>
 						<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
 					</a>
-					<a className="inline-block ml-2" href="https://github.com/boyney123/awstools" target="_blank">
+					<a
+						className="inline-block ml-2"
+						href="https://github.com/boyney123/awstools"
+						target="_blank"
+					>
 						<img src="https://img.shields.io/github/stars/boyney123/awstools.svg?style=social" />
 					</a>
 				</div>
@@ -754,46 +762,69 @@ const MemoProject = React.memo(
 		latestCommit,
 		service,
 		stars,
+		type,
 		urls,
 	}) => {
 		const url = urls.homepage || urls.github;
 		return (
-			<div class="flex flex-col rounded-lg  overflow-hidden ">
-				<div class="flex-1 bg-white dark:bg-gray-700 p-6 flex flex-col justify-between">
-					<div class="flex-1">
+			<div className="flex flex-col rounded-lg  overflow-hidden ">
+				<a href={`${url}?ref=awstools.dev`} target="_blank" rel="noopener" className="flex-1 bg-white dark:bg-gray-700 p-6 flex flex-col justify-between">
+					<div className="flex-1">
 						<div className="flex justify-between">
-							<p class="text-sm font-medium text-indigo-600">
+							<p className="text-sm font-medium text-indigo-600">
 								<div title={`${stars} GitHub Stars`}>
 									<Stars numberOfStars={getNumberOfStarsToRender(stars)} />
 								</div>
 							</p>
 							{service && <SVG id="tet" svg={getIconForService(service)} />}
 						</div>
-						<a href={url} target="_blank" rel="noopener" class="block mt-2">
-							<p class="text-xl font-semibold text-gray-900 dark:text-gray-100">
+						<a  className="block mt-2">
+							<p className="text-xl font-semibold text-gray-900 dark:text-gray-100">
 								{project}
 							</p>
-							<p class="mt-3 text-base text-gray-500 dark:text-gray-200">
+							<p className="mt-3 text-base text-gray-500 dark:text-gray-200">
 								{description}
 							</p>
 						</a>
+						<div className="mt-2">
+							<span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-800">
+								{type}
+							</span>
+						</div>
 					</div>
 
-					<div class="mt-6 flex items-center ">
-						<div class="flex-shrink-0">
+					<div className="mt-6 flex items-center ">
+						<div className="flex-shrink-0">
 							<a href="#">
-								<span class="sr-only ">{owner.name}</span>
-								<img class="h-10 w-10 rounded-full" src={owner.avatar} alt="" />
+								<span className="sr-only ">{owner.name}</span>
+								{type === "website" && (
+									<svg
+										className="w-6 h-6 text-orange-400"
+										fill="currentColor"
+										viewBox="0 0 20 20"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
+										<path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
+									</svg>
+								)}
+								{type === "code" && (
+									<img
+										className="h-10 w-10 rounded-full"
+										src={owner.avatar}
+										alt=""
+									/>
+								)}
 							</a>
 						</div>
-						<div class="ml-3">
-							<p class="text-sm font-medium text-gray-900 dark:text-gray-100">
-								<a href="#" class="hover:underline">
+						<div className="ml-3">
+							<p className="text-sm font-medium text-gray-900 dark:text-gray-100">
+								<a href="#" className="hover:underline">
 									{owner.name}
 								</a>
 							</p>
 							{latestCommit && (
-								<div class="flex space-x-1 text-sm text-gray-500 dark:text-gray-400">
+								<div className="flex space-x-1 text-sm text-gray-500 dark:text-gray-400">
 									<span>
 										last commit:{" "}
 										{distanceInWordsToNow(new Date(latestCommit), {
@@ -804,7 +835,7 @@ const MemoProject = React.memo(
 							)}
 						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 		);
 	}

@@ -69,10 +69,16 @@ const actions = state => ({
 		}
 
 		state.search.__results = dataset.filter(each => {
-			return each.tags.some(each => {
+			const tagMatch = each.tags.some(each => {
 				return each.startsWith(safe)
 			})
+
+			const projectMatch = each.project.toLowerCase().startsWith(safe.toLowerCase());
+
+			return tagMatch || projectMatch;
+
 		})
+
 	},
 	updateControls(controlType, key, value) {
 		if (typeof value === "boolean") {

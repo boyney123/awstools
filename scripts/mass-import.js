@@ -1,6 +1,7 @@
 const fs = require("fs")
 const path = require("path")
 const { getDataForGithubProject } = require("./github")
+const { getDataForWebsite } = require("./website")
 
 const YAML = require("yaml")
 
@@ -12,7 +13,19 @@ const main = async () => {
 	let allData = []
 
 	Object.keys(projectsByService).map(service => {
-		const allProjectsForService = projectsByService[service].map(project => getDataForGithubProject(project, service))
+
+		const urls = projectsByService[service].urls
+		const tags = projectsByService[service].tags || []
+
+		const allProjectsForService = urls.map(project => {
+
+			if (project.indexOf("github") > -1) {
+				return getDataForGithubProject({ project, service, tags, type: "code" })
+			} else {
+				return getDataForWebsite({ project, service, tags, type: "website" })
+			}
+
+		})
 		allData = allData.concat(allProjectsForService)
 	})
 

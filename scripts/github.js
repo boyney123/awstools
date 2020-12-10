@@ -14,6 +14,8 @@ const mapGitHubDataToProjectAPI = (data) => {
 		language,
 		latestCommit,
 		service,
+		additionalTags,
+		type
 	} = data;
 	return {
 		project,
@@ -29,9 +31,10 @@ const mapGitHubDataToProjectAPI = (data) => {
 			homepage,
 			github: html_url,
 		},
-		tags: [...topics, service],
+		tags: [...topics, service, ...additionalTags],
 		latestCommit,
 		service,
+		type
 	};
 };
 
@@ -74,9 +77,9 @@ const getLatestCommit = async (url, default_branch) => {
 	}
 };
 
-const getDataForGithubProject = async (githubUrl, service) => {
+const getDataForGithubProject = async ({project, service, tags, type}) => {
 
-  const urlsParts = githubUrl.split("github.com");
+  const urlsParts = project.split("github.com");
 
 	const url = `https://api.github.com/repos${urlsParts[1]}`;
 
@@ -102,6 +105,8 @@ const getDataForGithubProject = async (githubUrl, service) => {
 		topics,
 		latestCommit,
 		service,
+		type,
+		additionalTags: tags
 	});
 
 	return mappedData;
