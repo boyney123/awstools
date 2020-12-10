@@ -81,7 +81,8 @@ kinesis:
   - https://github.com/awslabs/kinesis-log4j-appender
 elastic-container-services:
   - https://github.com/aws/amazon-ecs-agent
-  - https://github.com/aws/amazon-ecs-init
+  - https://github.com/aws/amazon-ecs-init  
+  - https://github.com/aws/copilot-cli
   - https://github.com/blox/blox
   - https://github.com/awslabs/ecs-blue-green-deployment
   - https://github.com/awslabs/ecs-cloudwatch-logs
