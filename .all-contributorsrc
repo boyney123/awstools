@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "kohidave",
+      "name": "David Killmon",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/828419?v=4",
+      "profile": "http://kohidave.dev",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "awstools",
+  "projectOwner": "boyney123",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
