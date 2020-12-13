@@ -22,6 +22,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "udondan",
+      "name": "Daniel Schroeder",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6443408?v=4",
+      "profile": "https://www.udondan.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
