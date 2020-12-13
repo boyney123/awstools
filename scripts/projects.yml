@@ -158,4 +158,4 @@ appsync:
     - https://appsyncmasterclass.com/
 kubernetes:
   urls:
-    - https://github.com/aws-samples/aws-cdk-for-k3scluster
+    - https://github.com/aws-samples/aws-cdk-for-k3scluster/
