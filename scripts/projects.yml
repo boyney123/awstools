@@ -103,6 +103,7 @@ elastic-container-services:
     - https://github.com/awslabs/service-discovery-ecs-consul
     - https://github.com/lumoslabs/broadside
     - https://github.com/stelligent/mu
+    - https://github.com/aws-samples/aws-cdk-for-k3scluster/
 elastic-bean-stalk:
   urls:
     - https://github.com/aws/aws-eb-glassfish-dockerfiles

@@ -31,6 +31,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "guan840912",
+      "name": "Neil Kuan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/46012524?v=4",
+      "profile": "https://blog.neilkuan.dev/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
