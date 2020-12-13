@@ -14,6 +14,7 @@ cloudformation:
     - https://github.com/sparkleformation/sparkle_formation
     - https://github.com/stelligent/cfn_nag
     - https://github.com/Hack23/sonar-cloudformation-plugin
+    - https://github.com/aws-cloudformation/aws-cfn-lint-visual-studio-code
 s3:
   urls:
     - https://github.com/anomalizer/ngx_aws_auth
@@ -37,6 +38,7 @@ s3:
     - https://github.com/schickling/git-s3
     - https://github.com/sorentwo/carrierwave-aws
     - https://github.com/mishudark/s3-parallel-put
+    - https://github.com/iterate-ch/cyberduck
 lambda:
   urls:
     - https://github.com/awslabs/amazon-elasticsearch-lambda-samples
@@ -68,6 +70,8 @@ lambda:
     - https://github.com/nficano/python-lambda
     - https://github.com/serverless/serverless
     - https://github.com/trek10inc/aws-lambda-debugger
+    - https://github.com/awslabs/aws-lambda-powertools-java
+	  - https://github.com/awslabs/aws-lambda-powertools-python
 kinesis:
   urls:
     - https://github.com/awslabs/amazon-kinesis-aggregators
@@ -121,6 +125,7 @@ elastic-bean-stalk:
     - https://github.com/awslabs/eb-wif-sample
     - https://github.com/alienfast/elastic-beanstalk
     - https://github.com/ThoughtWorksStudios/eb_deployer
+    - https://github.com/rennokki/laravel-aws-eb
 dynamodb:
   urls:
     - https://github.com/aws/aws-dotnet-session-provider

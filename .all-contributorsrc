@@ -40,6 +40,42 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "dkocher",
+      "name": "David Kocher",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/71733?v=4",
+      "profile": "https://iterate.ch/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "pankajagrawal16",
+      "name": "Pankaj Agrawal",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8058415?v=4",
+      "profile": "https://github.com/pankajagrawal16",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "rennokki",
+      "name": "rennokki",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21983456?v=4",
+      "profile": "https://renoki.org/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "PatMyron",
+      "name": "Pat Myron",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7014355?v=4",
+      "profile": "https://github.com/PatMyron",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
