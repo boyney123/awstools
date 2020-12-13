@@ -18,6 +18,8 @@ export const getIconForService = service => {
 		return AWSDevTools.ArchAwsToolsAndSdk32
 	case "dynamodb":
 		return Arch_Database.ArchAmazonDynamoDb32
+	case "iam":
+		return Arch_Security_Identity_Compliance.ArchAwsIdentityAndAccessManagement32
 	case "elastic-bean-stalk":
 		return Arch_Compute.ArchAwsElasticBeanstalk32
 	case "lambda":
