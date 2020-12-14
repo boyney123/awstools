@@ -71,7 +71,7 @@ lambda:
     - https://github.com/serverless/serverless
     - https://github.com/trek10inc/aws-lambda-debugger
     - https://github.com/awslabs/aws-lambda-powertools-java
-	  - https://github.com/awslabs/aws-lambda-powertools-python
+    - https://github.com/awslabs/aws-lambda-powertools-python
 kinesis:
   urls:
     - https://github.com/awslabs/amazon-kinesis-aggregators
