@@ -48,23 +48,23 @@ Adding a resource is super easy just open `scripts/projects.yml` and add your re
 
 Example
 
-```
+```yaml
 cloudformation:
   urls:
-  	- https://github.com/aws/aws-cdk
-		- https://github.com/awslabs/cfn-python-lint
-		- https://github.com/awslabs/cfncluster-cookbook
-		- https://github.com/awslabs/cfncluster
-		- https://github.com/Appliscale/perun
-		- https://github.com/bazaarvoice/cloudformation-ruby-dsl
-		- https://github.com/Sceptre/sceptre
-		- https://github.com/cloudtools/troposphere
-		- https://github.com/peterkh/cumulus
-		- https://github.com/envato/stack_master
-		- https://github.com/sparkleformation/sfn
-		- https://github.com/sparkleformation/sparkle_formation
-		- https://github.com/stelligent/cfn_nag
-		- https://my-website.com
+    - https://github.com/aws/aws-cdk
+    - https://github.com/awslabs/cfn-python-lint
+    - https://github.com/awslabs/cfncluster-cookbook
+    - https://github.com/awslabs/cfncluster
+    - https://github.com/Appliscale/perun
+    - https://github.com/bazaarvoice/cloudformation-ruby-dsl
+    - https://github.com/Sceptre/sceptre
+    - https://github.com/cloudtools/troposphere
+    - https://github.com/peterkh/cumulus
+    - https://github.com/envato/stack_master
+    - https://github.com/sparkleformation/sfn
+    - https://github.com/sparkleformation/sparkle_formation
+    - https://github.com/stelligent/cfn_nag
+    - https://my-website.com
 ```
 
 This shows the resources for `cloudformation`, if you wanted to add a resource just add another link and make a pull request. 
