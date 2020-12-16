@@ -14,7 +14,7 @@ New MIT open source project to find libraries, tools and resources for your aws 
 
 
 <div align="center">
-	<a href="awstools.dev">awstools.dev created by </a>
+	<a href="https://awstools.dev">awstools.dev created by </a>
 	<a href="https://twitter.com/boyney123">@boyney123</a>
 </div>
 
