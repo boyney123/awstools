@@ -186,3 +186,7 @@ elastic-kubernetes-service:
     - https://github.com/salesforce/sloop
     - https://github.com/darkbitio/mkit
     - https://github.com/aws/aws-eks-best-practices/
+		- https://github.com/awslabs/amazon-eks-ami
+		- https://github.com/awslabs/aws-container-images-toolkit
+		- https://github.com/IBM/kui/
+		
