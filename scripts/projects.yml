@@ -166,4 +166,30 @@ appsync:
     - https://appsyncmasterclass.com/
 iam:
   urls:
-    - https://github.com/udondan/iam-floyd    
+    - https://github.com/udondan/iam-floyd  
+elastic-kubernetes-service:
+  urls:
+    - https://eksctl.io/
+    - https://github.com/awslabs/cdk8s
+    - https://github.com/mreferre/ekstender
+    - https://github.com/aws/aws-k8s-tester
+    - https://krew.sigs.k8s.io/
+    - https://github.com/jordanwilson230/kubectl-plugins
+    - https://github.com/derailed/k9s
+    - https://github.com/ahmetb/kubectl-tree
+    - https://github.com/eldadru/ksniff
+    - https://github.com/Shopify/kubeaudit
+    - https://github.com/ahmetb/kubectx
+    - https://github.com/controlplaneio/kubesec
+    - https://github.com/flant/k8s-image-availability-exporter
+    - https://github.com/pulumi/kubespy
+    - https://kubecost.com/
+    - https://github.com/atlassian/escalator
+    - https://github.com/mhausenblas/right-size-guide
+    - https://github.com/salesforce/sloop
+    - https://github.com/darkbitio/mkit
+    - https://github.com/aws/aws-eks-best-practices/
+		- https://github.com/awslabs/amazon-eks-ami
+		- https://github.com/awslabs/aws-container-images-toolkit
+		- https://github.com/IBM/kui/
+		
