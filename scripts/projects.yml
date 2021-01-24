@@ -107,6 +107,7 @@ elastic-container-services:
     - https://github.com/awslabs/service-discovery-ecs-consul
     - https://github.com/lumoslabs/broadside
     - https://github.com/stelligent/mu
+    - https://www.vantage.sh/
 elastic-bean-stalk:
   urls:
     - https://github.com/aws/aws-eb-glassfish-dockerfiles
@@ -152,12 +153,14 @@ api-gateway:
 sdk:
   urls:
     - https://github.com/aws-amplify/aws-sdk-ios
+    - https://aws.amazon.com/sdk-for-ruby/
 observability:
   urls:
     - https://www.thundra.io/
     - https://newrelic.com/
     - https://www.datadoghq.com/
     - https://epsagon.com/
+    - https://www.vantage.sh/
 appsync:
   urls:
     - https://appsyncmasterclass.com/
