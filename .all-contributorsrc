@@ -76,6 +76,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Bensign",
+      "name": "Ben Schaechter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/223348?v=4",
+      "profile": "https://vantage.sh/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

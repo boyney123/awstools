@@ -1,7 +1,7 @@
 # awstools.dev 
 ## Explore Resources for your AWS Services
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 New MIT open source project to find libraries, tools and resources for your aws services.
@@ -90,6 +90,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/PatMyron"><img src="https://avatars3.githubusercontent.com/u/7014355?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pat Myron</b></sub></a><br /><a href="https://github.com/boyney123/awstools/commits?author=PatMyron" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://vantage.sh/"><img src="https://avatars.githubusercontent.com/u/223348?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ben Schaechter</b></sub></a><br /><a href="https://github.com/boyney123/awstools/commits?author=Bensign" title="Documentation">📖</a></td>
   </tr>
 </table>
 
