@@ -167,3 +167,8 @@ appsync:
 iam:
   urls:
     - https://github.com/udondan/iam-floyd    
+organizations:
+  urls:
+    - https://github.com/daknhh/aws-orgtool
+    - https://github.com/iann0036/aws-account-controller
+    - https://github.com/awslabs/aws-multi-account-viewer
