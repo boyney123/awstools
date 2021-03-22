@@ -93,7 +93,7 @@ elastic-container-services:
     - ecs
   urls:
     - https://github.com/aws/amazon-ecs-agent
-    - https://github.com/aws/amazon-ecs-init  
+    - https://github.com/aws/amazon-ecs-init
     - https://github.com/aws/copilot-cli
     - https://github.com/blox/blox
     - https://github.com/awslabs/ecs-blue-green-deployment
@@ -166,4 +166,7 @@ appsync:
     - https://appsyncmasterclass.com/
 iam:
   urls:
-    - https://github.com/udondan/iam-floyd    
+    - https://github.com/udondan/iam-floyd
+testing:
+  urls:
+    - https://github.com/spulec/moto
