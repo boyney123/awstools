@@ -85,6 +85,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "corrjo",
+      "name": "John Corrales",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12716969?v=4",
+      "profile": "https://github.com/corrjo",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
