@@ -40,6 +40,8 @@ export const getIconForService = service => {
 		return Arch_Networking_Content.ArchAmazonApiGateway32
 	case "appsync":
 		return Arch_Mobile.ArchAwsAppSync32
+	case "testing":
+		return Arch_Developer_Tools.ArchAwsToolsAndSdk32
 	case "sdk":
 		return Arch_Developer_Tools.ArchAwsToolsAndSdk32
 	case "cli":
