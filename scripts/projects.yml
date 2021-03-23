@@ -167,6 +167,7 @@ appsync:
 iam:
   urls:
     - https://github.com/udondan/iam-floyd
+    - https://github.com/Noovolari/leapp
 testing:
   urls:
     - https://github.com/spulec/moto
