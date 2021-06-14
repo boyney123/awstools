@@ -72,6 +72,7 @@ lambda:
     - https://github.com/trek10inc/aws-lambda-debugger
     - https://github.com/awslabs/aws-lambda-powertools-java
     - https://github.com/awslabs/aws-lambda-powertools-python
+		- https://github.com/gridsmartercities/aws-lambda-decorators
 kinesis:
   urls:
     - https://github.com/awslabs/amazon-kinesis-aggregators
@@ -145,6 +146,7 @@ dynamodb:
     - https://github.com/lyft/confidant
     - https://github.com/sebdah/dynamic-dynamodb
     - https://www.dynamodbbook.com/
+		- https://github.com/gridsmartercities/aws-dynamodb-parser
 api-gateway:
   urls:
     - https://github.com/awslabs/api-gateway-secure-pet-store
@@ -171,3 +173,8 @@ iam:
 testing:
   urls:
     - https://github.com/spulec/moto
+		- https://github.com/gridsmartercities/pywsitest
+serverless:
+  urls:
+      - https://github.com/gridsmartercities/python-serverless-template
+
