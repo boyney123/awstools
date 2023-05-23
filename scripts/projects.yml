@@ -164,6 +164,7 @@ observability:
 appsync:
   urls:
     - https://appsyncmasterclass.com/
+		- https://graphbolt.dev
 iam:
   urls:
     - https://github.com/udondan/iam-floyd
