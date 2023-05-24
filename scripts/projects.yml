@@ -72,6 +72,7 @@ lambda:
     - https://github.com/trek10inc/aws-lambda-debugger
     - https://github.com/awslabs/aws-lambda-powertools-java
     - https://github.com/awslabs/aws-lambda-powertools-python
+		- https://app.cloudgto.com
 kinesis:
   urls:
     - https://github.com/awslabs/amazon-kinesis-aggregators
