@@ -160,7 +160,7 @@ observability:
     - https://newrelic.com/
     - https://www.datadoghq.com/
     - https://epsagon.com/
-    - https://www.vantage.sh/
+    - https://www.vantage.sh/		
 appsync:
   urls:
     - https://appsyncmasterclass.com/
@@ -171,3 +171,6 @@ iam:
 testing:
   urls:
     - https://github.com/spulec/moto
+eventbridge:
+  urls:
+	  - https://eventbridge-cron-helper-ejt8.vercel.app/
