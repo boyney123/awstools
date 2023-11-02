@@ -168,6 +168,7 @@ iam:
   urls:
     - https://github.com/udondan/iam-floyd
     - https://github.com/Noovolari/leapp
+		- https://github.com/gevial/mfaprof
 testing:
   urls:
     - https://github.com/spulec/moto
